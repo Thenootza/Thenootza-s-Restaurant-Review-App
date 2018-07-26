@@ -99,7 +99,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  height: 600px;
+  height: 300px;
   width: 100%;
   background-color: #ccc;
 }
@@ -192,7 +192,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 100%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -201,7 +201,7 @@ nav h1 a {
 .inside #map {
   background-color: #ccc;
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
 .inside #footer {
   bottom: 0;
@@ -281,4 +281,7 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 	display: flex;
+}
+#maincontent {
+	width: 50%;
 }
