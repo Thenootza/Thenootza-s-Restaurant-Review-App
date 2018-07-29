@@ -21,10 +21,18 @@ a {
 	color: orange;
 	text-decoration: none;
 }
-a:hover, a:focus {
+
+a:hover,
+a:focus {
 	color: #3397db;
 	text-decoration: none;
 }
+
+#neighborhoods-select, #cuisines-select:hover,
+#neighborhoods-select, #cuisines-select:focus {
+	color: #000066;
+}
+
 a img{
 	border: none 0px #fff;
 }
