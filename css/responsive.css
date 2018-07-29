@@ -216,8 +216,20 @@
 
 /*************************************************/
 @media screen and (min-width: 1600px){
+  #restaurants-list li h1{
+	  font-size: 2.5em;
+	}
+
+  #restaurants-list li p{
+    font-size: 2.5em;
+  }
+
+  #restaurants-list li a{
+    font-size: 2.5em;
+  }
+
   #reviews-list li p {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   #reviews-list {
